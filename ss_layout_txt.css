@@ -16,31 +16,79 @@
 
 /* Article Styles */
 
-
+article {
+    float: left;
+    width: 384px;
+}
 
 
 /* First Line and Drop Cap Styles */
 
+article p:first-of-type::first-line {
+    font: 1.25em;
 
+}
 
- 
+article p:first-of-type::first-letter {
+    font: 4em;
+    font-family: sans-serif;
+    float: left;
+    height: .8em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 
 /* Aside Styles */
 
+aside {
+    width: 768px;
+    float: left;
+}
 
+div {
+    width: 688px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#mapImage {
+    width: 100%;
+    display: block;
+}
 
 
 /* Map Styles */
 
-
-
-
 /* Interactive Map Styles */
+a#battleMarkers{
+position: absolute;
+}
 
+#marker1 {
+    top: 220;
+    left: 340;
+}
 
+#marker2 {
+    top: 194;
+    left: 358;
+}
 
+#marker3 {
+    top: 202;
+    left: 400;
+}
+
+#marker4 {
+    top: 220;
+    left: 340;
+}
+#marker5 {
+    top: 220;
+    left: 340;
+}
 
 /* Map Information Styles */
-
-
-
